@@ -1,0 +1,115 @@
+# Privacy Policy — [Your Bot Name]
+
+**Effective date:** October 24, 2026  
+**Last updated:** October 24, 2026
+
+## 1. Introduction
+
+This Privacy Policy explains how **[Your Bot Name]** ("the Bot") handles information when used on Discord.
+
+The Bot is developed and operated by **[Your Name or Developer Name]** ("we", "us", or "our"). By using the Bot, you acknowledge that information may be processed as described in this policy.
+
+We aim to collect only the information necessary to operate the Bot and provide its intended features.
+
+## 2. Information We May Process
+
+Depending on the Bot's functionality and the commands you use, the following information may be processed:
+
+- **Discord User IDs:** To identify users when executing commands or providing user-specific features.
+- **Discord Server IDs:** To identify servers where the Bot is installed.
+- **Channel and Message Information:** To process commands, respond to messages, and perform requested actions.
+- **Command Data:** Information and parameters submitted when interacting with the Bot.
+- **Configuration Data:** Server preferences or user settings, if supported by the Bot.
+- **Technical Logs:** Error reports and diagnostic information necessary to maintain reliability and security.
+
+The Bot does not necessarily collect or store all of the information listed above. The information processed depends on its implemented features and configuration.
+
+## 3. How Information Is Used
+
+Information may be processed for the following purposes:
+
+- Providing the Bot's features and responding to commands.
+- Remembering server or user preferences when required.
+- Preventing abuse, spam, unauthorized access, and misuse.
+- Diagnosing errors and improving reliability.
+- Complying with applicable legal obligations.
+
+We do not sell personal information.
+
+## 4. Data Storage and Retention
+
+Some information may be processed temporarily in memory. Other information may be stored in databases, configuration files, or logs if required by the Bot's functionality.
+
+Information is retained only for as long as reasonably necessary for its intended purpose, unless a longer retention period is required by law.
+
+Where supported, stored data may be deleted when it is no longer needed or when a valid deletion request is received.
+
+**Important:** Data retention depends on the Bot's actual implementation. Information contained in Discord messages, platform logs, backups, or third-party services may be subject to separate retention policies.
+
+## 5. Sharing and Third-Party Services
+
+The Bot operates through Discord and may rely on third-party infrastructure, such as hosting providers, databases, monitoring services, or external APIs.
+
+Information may be processed by these services when necessary to operate the Bot. Such services may handle information under their own privacy policies and terms.
+
+We do not sell your personal information or share it with third parties for their independent advertising purposes.
+
+Discord's own handling of personal information is governed by its Privacy Policy:
+
+https://discord.com/privacy
+
+## 6. Permissions and Access
+
+The Bot may request Discord permissions necessary to perform its advertised functions.
+
+Server administrators should review the permissions requested before adding the Bot to a server. The Bot should only be granted permissions required for its intended operation.
+
+The Bot is not intended to access information beyond what is necessary for its functionality and the permissions granted to it.
+
+## 7. Your Rights and Data Deletion
+
+Depending on your location and applicable law, you may have the right to:
+
+- Request access to personal information associated with you.
+- Request correction of inaccurate information.
+- Request deletion of stored personal information.
+- Object to or request restrictions on certain processing.
+- Withdraw consent where processing relies on consent.
+- Lodge a complaint with your relevant data protection authority.
+
+To submit a privacy or data deletion request, contact:
+
+**Contact:** [Your Contact Email or Discord Support Server]
+
+Please provide sufficient information to identify the relevant data without sharing your password or other sensitive credentials.
+
+We will review requests and respond in accordance with applicable law. Some information may need to be retained where legally required or where a valid exception applies.
+
+## 8. Children's Privacy
+
+The Bot is not specifically designed to collect personal information from children. Users must comply with Discord's minimum age requirements and any applicable age restrictions in their jurisdiction.
+
+If you believe the Bot has improperly collected personal information from a child, please contact us using the details above.
+
+## 9. Security
+
+We take reasonable measures appropriate to the Bot's design and hosting environment to protect information against unauthorized access, alteration, disclosure, or destruction.
+
+However, no internet-based service or storage system can be guaranteed to be completely secure.
+
+## 10. Changes to This Policy
+
+We may update this Privacy Policy when the Bot's functionality, data practices, or applicable legal requirements change.
+
+The latest version will be published at the URL where this policy is hosted. The effective date above will be updated when appropriate.
+
+## 11. Contact
+
+For questions, concerns, or requests relating to this Privacy Policy, contact:
+
+**Developer:** [Your Name or Developer Name]  
+**Email or Support Link:** [Your Contact Email or Discord Support Server]
+
+---
+
+*This policy should be customized to reflect the Bot's actual data processing practices. It is not legal advice.*
