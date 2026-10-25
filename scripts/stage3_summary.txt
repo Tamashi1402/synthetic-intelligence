@@ -1,0 +1,103 @@
+G1 V0 pass=True legs=28 unresolved=3 dir=gates/G1_si_20261025-1312
+    G1.a.3 unmeasured :: every frame in the S3.2 closed table yields a last slot, so a decoded question always names one; the unnamed-slot fallback (docs/03 S7.4) has no reach
+    G1.u.4b unmeasured :: the promotion is `INFERENCE_PROMOTION`'s and that Ruling row ships off, so no build of this stage has a promotion path to test; OD-58 is the owner's c
+    G1.u.5b unmeasured :: the spec names no threshold for `high`, and setting one while coding would be the ad-hoc cap OD-33's ruling owns; the range below is the measurement, 
+G2 V0 pass=True legs=17 unresolved=8 dir=gates/G2_si_20261025-1312
+    G2.d.1 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.d.2 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.w.1 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.t3.1 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.t3.2 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.c.1 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.l.1 unmeasured :: S2 is unreachable at this build: `stage_of` needs a live `links` row and no module writes the `links` shelf before the genome loader (this run reads s
+    G2.e.1 unmeasured :: the static scan is graded by `si-harness check`, not by a run: its verdict here is "pass" (no embedding API, model file or pretrained artifact on disk
+G3 V0 pass=True legs=14 unresolved=1 dir=gates/G3_si_20261025-1312
+    G3.em.1 unmeasured :: no module computes a point median yet: `si-read::retrieve` calls the walk with an empty stamp set (04 S16's `median_q12` arithmetic exists in `si-affe
+G4 V0 pass=True legs=14 unresolved=1 dir=gates/G4_si_20261025-1312
+    G4.o.1 unmeasured :: the scene needs a taught `A->B->A` edge pair on the `links` shelf and nothing writes that shelf before the genome loader; it is a separate variant run
+G5 V0 pass=True legs=17 unresolved=0 dir=gates/G5_si_20261025-1312
+G6 V0 pass=True legs=10 unresolved=0 dir=gates/G6_si_20261025-1312
+G7 V0 pass=True legs=17 unresolved=1 dir=gates/G7_si_20261025-1312
+    G7.charge.2 unmeasured :: no reader computes a median yet (04 S16's arithmetic is wired only into the write-side curve), so the exclusion has nothing to be excluded from; `gate
+G8 V0 pass=True legs=29 unresolved=3 dir=gates/G8_si_20261025-1312
+    G8.d.1 unmeasured :: one sense line names at most one gap in this build (04 S11's named-slot ask), so a cap of 1 or 2 can never bind; the leg needs a multi-gap input, whic
+    G8.d.4 unmeasured :: distinguishing the two causes needs the arousal sweep (`gates/G9/arousal_sweep.json`) and a multi-gap run; with one gap per input the phase ends at th
+    G8.s.3 unmeasured :: the leg is a *build-pair* comparison: it needs a second policy compiled in and the two trees diffed. OD-21 cancelled the matrix that would have suppli
+G9 V0 pass=True legs=24 unresolved=11 dir=gates/G9_si_20261025-1312
+    G9.a.1 unmeasured :: the `a`-update row carries `round`, `a_used`, `a_after` but no `reach`/`decay`/`settle_shift`, and the fixture curve (11 S1 D5) modulates nothing unti
+    G9.a.2 unmeasured :: same missing attribution fields; and the leg needs two runs differing only in prior signal history, which is a sweep pair, not one CONFIG SI run
+    G9.c.3 unmeasured :: 05 S2's V1 is a build-graph exclusion ("si-audit excluded from the build entirely, not feature-flagged"), so it needs a recompiled binary and a second
+    G9.d.1 unmeasured :: the frozen layer does not exist in CONFIG SI -- `layers_frozen` refuses the load (05 S20's `check_config_guard`) -- and G5_LONG_SESSION_INPUTS ≥ 100 i
+    G9.d.2 unmeasured :: no L1/L2 checksums exist before the genome loader (B10); this is a CONFIG SI run with no frozen pair
+    G9.d.3 unmeasured :: the frozen row types are not yet defined in the shipped build (B10); a CONFIG SI run has no such schema to read
+    G9.e.1 unmeasured :: the cap binds only once a median reader and a 100-input run exist; that run and `gates/G11/median_sweep.json` are B12
+    G9.e.2 unmeasured :: the sweep that sizes the decay (`gates/G9/arousal_sweep.json`) is the objective this run reports, not evidence it has read
+    G9.e.3 unmeasured :: point medians are not yet computed by any wired reader (04 S16's arithmetic is write-side only); the comparison needs a G11(c) pair on the same consta
+    G9.e.4 unmeasured :: the objective is the arousal sweep's own result; `gates/G9/arousal_sweep.json` is present but only a curve with a refusal/winner could size it, and a 
+    G9.f.1 unmeasured :: the label half is gradable but the stamp and modulate halves need the a-trace attribution of G9(a); the leg is only as measurable as its modulation cl
+G10 V0 pass=True legs=25 unresolved=1 dir=gates/G10_si_20261025-1312
+    G10.e.3 unmeasured :: OPEN-28 is undecided and `TWO_REGIONS_TEST` is a Ruling with no value, so the cascade-side candidate question has no ruled producer; 04 S19 S.7 lets a
+G12 V0 pass=True legs=24 unresolved=0 dir=gates/G12_si_20261025-1312
+G13 V0 pass=True legs=47 unresolved=4 dir=gates/G13_si_20261025-1312
+    G13.e.1 unmeasured :: B10 landed the loader, so the input this leg needs now exists -- what does not exist is a run of *this* scenario at CONFIG ENGINE. G6 ran the frozen l
+    G13.e.2 unmeasured :: the pair needs the ENGINE run of G13.e.1: `same code, different load` is a claim about two runs, and only one has been made. The comparison is not a h
+    G13.i.2 unmeasured :: the second half of the predicate needs `INFERENCE_PROMOTION` switched on, and it is a Ruling row whose shipped value is off (Ruling), so no build of t
+    G13.k.3 unmeasured :: the median is a read-side order statistic that this build has not wired (04 S9's `median_q12` exists in si-affect unwired), so the clause has no secon
+G14 V0 pass=True legs=26 unresolved=3 dir=gates/G14_si_20261025-1312
+    G14.e.3 unmeasured :: enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening th
+    G14.h.1 unmeasured :: the panel pass re-runs a sweep's **winner and both box corners** at every member (05 S4.1 step 2), and each of these runners is a written refusal beca
+    G14.k.1 unmeasured :: `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A se
+G15 V0 pass=True legs=19 unresolved=2 dir=gates/G15_si_20261025-1312
+    G15.b.1 unmeasured :: V10 is declared as a build-graph exclusion in 12 S6.1 and the workspace ships one build; the behavioural half is graded by G15.a.1's off arm, and the 
+    G15.c.3 unmeasured :: a full-session reading needs the arousal sweep, which OD-83 refuses to enumerate
+G16 V0 pass=True legs=20 unresolved=2 dir=gates/G16_si_20261025-1312
+    G16.b.1 unmeasured :: V11 is declared as a build-graph exclusion in 12 S6.1 and the workspace ships one build; the pair at the unarmed default is G16.a.2, and the deletion 
+    G16.c.2 unmeasured :: a full-session reading needs the arousal sweep, which OD-83 refuses to enumerate
+G17 V0 pass=True legs=20 unresolved=0 dir=gates/G17_si_20261025-1312
+G18 V0 pass=True legs=23 unresolved=2 dir=gates/G18_si_20261025-1312
+    G18.b.1 unmeasured :: V10 is declared as a build-graph exclusion in 12 S6.1 and the workspace ships one build; the behavioural half is graded by G18.a.1's off arm, and the 
+    G18.c.3 unmeasured :: a full-session reading needs the shape sweep, which OD-83 refuses to enumerate (OD-116)
+G19 V0 pass=True legs=17 unresolved=0 dir=gates/G19_si_20261025-1312
+G20 V0 pass=True legs=30 unresolved=3 dir=gates/G20_si_20261025-1312
+    G20.d.3 unmeasured :: 13 S6.6 puts this clause in leg (d), and the only way to grade it here is to re-run G1's evaluator from inside G20's -- which recurses into the evalua
+    G20.e.3 unmeasured :: 13 S6.6's (e) names an axis the launch channel has no shape for: arousal is not a registry row, it is the trajectory `a` walks under the swept constan
+    G14.f.1 unmeasured :: the leg compares individuals at one launch, and `gates/G14/seed_panel.json` holds 113 record(s) made by this binary at this run's launch (06b0171f5a26
+G10 V2 pass=True legs=25 unresolved=2 dir=gates/G10_si_20261025-1312-2
+    G10.e.2 unmeasured :: this run's quiet ticks held no ignition, so the reset had no curve to narrow and no reading exists to grade
+    G10.e.3 unmeasured :: OPEN-28 is undecided and `TWO_REGIONS_TEST` is a Ruling with no value, so the cascade-side candidate question has no ruled producer; 04 S19 S.7 lets a
+G10 V3 pass=True legs=25 unresolved=1 dir=gates/G10_si_20261025-1312-3
+    G10.e.3 unmeasured :: OPEN-28 is undecided and `TWO_REGIONS_TEST` is a Ruling with no value, so the cascade-side candidate question has no ruled producer; 04 S19 S.7 lets a
+G12 V4 pass=True legs=24 unresolved=6 dir=gates/G12_si_20261025-1312-2
+    G12.b.1 unmeasured :: variant V4 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.b.2 unmeasured :: the run recorded no layer-2 rejection, so there is no refusal to price
+    G12.c.1 unmeasured :: variant V4 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.d.2 unmeasured :: variant V4 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.e.3 unmeasured :: variant V4 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.g.1 unmeasured :: variant V4 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+G12 V5 pass=True legs=24 unresolved=6 dir=gates/G12_si_20261025-1312-3
+    G12.b.1 unmeasured :: variant V5 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.b.2 unmeasured :: the run recorded no layer-2 rejection, so there is no refusal to price
+    G12.c.1 unmeasured :: variant V5 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.d.2 unmeasured :: variant V5 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.e.3 unmeasured :: variant V5 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+    G12.g.1 unmeasured :: variant V5 never lets an emission reach the gate (05 S2), so this leg has nothing to grade in this run; it is graded at V0
+G13 V9 pass=True legs=47 unresolved=8 dir=gates/G13_si_20261025-1312-2
+    G13.a.1 unmeasured :: this run is the V9 control, whose definition is that no night fires, so there is no sleep in the stream to replay; both replays of this run are exact,
+    G13.c.1 unmeasured :: the V9 control sweeps no edge, so this run has no recency group to order; the same arithmetic on the variant that does sleep is graded here, and the r
+    G13.c.2 unmeasured :: no recency group, so no residual to record; the recording path is graded on the V0 side of the pair
+    G13.e.1 unmeasured :: B10 landed the loader, so the input this leg needs now exists -- what does not exist is a run of *this* scenario at CONFIG ENGINE. G6 ran the frozen l
+    G13.e.2 unmeasured :: the pair needs the ENGINE run of G13.e.1: `same code, different load` is a claim about two runs, and only one has been made. The comparison is not a h
+    G13.f.2 unmeasured :: the V9 control never sleeps, so this run has no cold night to grade; the cold-start night is graded on the V0 side of the pair, and this run's `sleep.
+    G13.i.2 unmeasured :: the second half of the predicate needs `INFERENCE_PROMOTION` switched on, and it is a Ruling row whose shipped value is off (Ruling), so no build of t
+    G13.k.3 unmeasured :: the median is a read-side order statistic that this build has not wired (04 S9's `median_q12` exists in si-affect unwired), so the clause has no secon
+G14 V8 pass=True legs=26 unresolved=3 dir=gates/G14_si_20261025-1312-2
+    G14.e.3 unmeasured :: enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening th
+    G14.h.1 unmeasured :: the panel pass re-runs a sweep's **winner and both box corners** at every member (05 S4.1 step 2), and each of these runners is a written refusal beca
+    G14.k.1 unmeasured :: `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A se
+G17 V12 pass=True legs=20 unresolved=0 dir=gates/G17_si_20261025-1312-2
+G19 V13 pass=True legs=17 unresolved=0 dir=gates/G19_si_20261025-1312-2
+G20 V14 pass=True legs=30 unresolved=3 dir=gates/G20_si_20261025-1312-2
+    G20.d.3 unmeasured :: 13 S6.6 puts this clause in leg (d), and the only way to grade it here is to re-run G1's evaluator from inside G20's -- which recurses into the evalua
+    G20.e.3 unmeasured :: 13 S6.6's (e) names an axis the launch channel has no shape for: arousal is not a registry row, it is the trajectory `a` walks under the swept constan
+    G14.f.1 unmeasured :: the leg compares individuals at one launch, and `gates/G14/seed_panel.json` holds 121 record(s) made by this binary at this run's launch (25de56862e87
+FAILING REPORTS: 0

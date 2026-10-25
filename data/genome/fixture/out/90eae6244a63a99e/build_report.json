@@ -1,0 +1,117 @@
+{
+  "artifact_bytes": 2712,
+  "asserts": {
+    "A12": "carried by the harness: the engine-off twin's G5c handle audit, not by this build",
+    "passed": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8",
+      "A9",
+      "A10",
+      "A11"
+    ]
+  },
+  "canonical_bytes": 1474,
+  "degree_table_range": 64,
+  "max_degree": 3,
+  "profiled": false,
+  "rows_md5": "bd92760247e34b0794792e8e2f244a12",
+  "seal_md5": "9ea9634a24e6ea90edae0c2daca10b9f",
+  "stages": [
+    {
+      "bytes_out": 0,
+      "rows_in": 0,
+      "rows_out": 3,
+      "stage": "M.0",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 901,
+      "rows_in": 3,
+      "rows_out": 3,
+      "stage": "M.1",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 15,
+      "rows_out": 7,
+      "stage": "M.2",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 7,
+      "rows_out": 7,
+      "stage": "M.3",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 7,
+      "rows_out": 7,
+      "stage": "M.4",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 16,
+      "rows_out": 16,
+      "stage": "M.5",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 368,
+      "rows_in": 16,
+      "rows_out": 16,
+      "stage": "M.6",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 0,
+      "rows_out": 0,
+      "stage": "M.7",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 0,
+      "rows_in": 7,
+      "rows_out": 7,
+      "stage": "M.8",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 1474,
+      "rows_in": 1474,
+      "rows_out": 1,
+      "stage": "M.9",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 2712,
+      "rows_in": 1,
+      "rows_out": 11,
+      "stage": "M.10",
+      "wall_ns": 0
+    },
+    {
+      "bytes_out": 2712,
+      "rows_in": 1,
+      "rows_out": 4,
+      "stage": "M.11",
+      "wall_ns": 0
+    }
+  ],
+  "surface_index": {
+    "aliases": 0,
+    "keys": 8
+  },
+  "tag": "90eae6244a63a99e",
+  "total_wall_ns": 0
+}

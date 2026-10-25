@@ -1,0 +1,32 @@
+seed 0x51
+# 05 §10 G5 — DETERMINISM + NO-PRIOR. One transcript, three jobs.
+#
+# Section 0 is the scene every leg replays:
+#   1-2  an ask-back answered by `/correct`, so one S-R row exists to serve
+#   3    the served recall — the agenda is empty after it, which is what lets
+#        the quiet law reach §S.2 step 3
+#   4    a committed statement, the English half of d.1's parity pair
+#   5-7  three quiet ticks: e.1 compares their activation traces step by step
+#        and f.1 compares the cascades and the monologue they rendered,
+#        including which hyperpoint each ignition picked
+#   8-9  the gibberish half of d.1's pair: `flimp is wazz` is a statement like
+#        any other (one row, same gate decisions), and `what znark is floop`
+#        decodes to line 1's pattern with different slot handles
+#
+# Section 1 is the no-prior twin's other conversation: every surface in it is
+# disjoint from section 0's, so b.1's "zero shared term" is a set difference a
+# reviewer can re-derive rather than a promise. Two fresh sessions share the
+# empty-string sentinel and nothing else.
+owner: what color is apple?
+owner: /correct Red
+owner: what color is apple?
+owner: apple is red.
+idle
+idle
+idle
+owner: flimp is wazz
+owner: what znark is floop
+--- cold
+owner: moon orbits night.
+owner: comet streaks sky.
+idle

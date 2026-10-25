@@ -1,0 +1,19 @@
+seed 0x51
+# 05 §6 G1 — WRITE DISCIPLINE. Lines 1–8 are the gate's script in order; the
+# `--- cold` block is §6's separate cold run of the TEACH legs (9–12).
+# Line 3's left side is the substituted form of 05's "a teach whose left side
+# does not decode": the bare `floop => red` decodes to nothing at all and so
+# names no dark spot, and `G1.t.3` asserts a *named* one (failure_report.md).
+owner: what color is apple?
+owner: /correct Red
+owner: what color is apple?
+owner: apple is red.
+owner: apple is red.
+owner: hello.
+owner: flimp is wazz
+owner: what znark is floop
+--- cold
+owner: /teach what color is apple => red
+owner: /teach what color is apple => red
+owner: /teach what color is apple are green => red
+owner: /teach what znark is floop => blork

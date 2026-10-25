@@ -1,0 +1,18 @@
+[package]
+name = "si-walk"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+si-affect.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+
+# 07 §9's merged web is a CONFIG ENGINE fact and the only way to hold a real
+# frozen layer is the loader body, so the tests that read the merge turn the
+# feature on for themselves. It reaches no library build and no default feature
+# set (00 §6, and `check_config_guard` reads this file).
+[dev-dependencies]
+si-store = { workspace = true, features = ["engine"] }

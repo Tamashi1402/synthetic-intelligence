@@ -1,0 +1,8 @@
+seed 0x51
+# 05 §8 G3 — SUPERSESSION. Line 1 is a plain T2 statement; line 2's marker
+# statement arbitrates Supersede(MarkerCorrection) because the incumbent is T2,
+# not T3. Line 3 asks with a frame the scenario never taught, so the read path
+# returns an ask, not an invented past answer (G3.em.2).
+owner: apple is red.
+owner: no wait, apple is green.
+owner: what was before?

@@ -1,0 +1,18 @@
+seed 0x51
+# 05 §11 G6 — BASELINE INTEGRITY, the CONFIG ENGINE half of 05 §4's V7 row. The
+# fixture corpus (data/genome/fixture) seals water PartOf ice, ice IsA water and
+# heat IsA energy; it seals nothing that makes water a heat. Line 1 teaches that
+# wrong usage, line 2 asks, line 3 supersedes it back toward the corpus and line 4
+# asks again. Line 5 asks about `warm`, a word no owner line ever taught: its one
+# sealed arc is a walkable row, so it is the input that can reach the base web with
+# no OWNED edge at all. (`heat` is the corpus's hub — three sealed arcs, each
+# damped by W.4's degree and none of them over `tau_settle` at this fixture's
+# tiers, which is why it is not the word this line asks about.)
+#
+# The same file launched at `--config si` is 05 §4's pair and grades G5.c's handle
+# audit: the artifact is on disk and an SI wake never names it.
+owner: water is heat.
+owner: what is water?
+owner: no wait, water is ice.
+owner: what is water?
+owner: what is warm?

@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "out_dir": "out",
+  "degree_table_range": 64,
+  "sources": [
+    {
+      "id": "fixture-synsets",
+      "adapter": "synset_tsv",
+      "path": "senses.tsv",
+      "url": "https://example.invalid/si-fixture/senses.tsv",
+      "sha256": "d610d6cb243405143f496d4197e249c48446bbf9593954646a47561096981c30",
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "version": "fixture-1",
+      "target_shelf": 1,
+      "weight_buckets": [
+        {
+          "min": 1,
+          "max": 33,
+          "tier": 40
+        },
+        {
+          "min": 34,
+          "max": 66,
+          "tier": 82
+        },
+        {
+          "min": 67,
+          "max": 100,
+          "tier": 125
+        }
+      ],
+      "top_tier": 125
+    },
+    {
+      "id": "fixture-edges",
+      "adapter": "edges_tsv",
+      "path": "edges.tsv",
+      "url": "https://example.invalid/si-fixture/edges.tsv",
+      "sha256": "e1d8ef6aca77b117c43ae54b3e4516944618d2832ee2b8dc9756757071e91d24",
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "version": "fixture-1",
+      "target_shelf": 2,
+      "weight_buckets": [
+        {
+          "min": 1,
+          "max": 33,
+          "tier": 40
+        },
+        {
+          "min": 34,
+          "max": 66,
+          "tier": 82
+        },
+        {
+          "min": 67,
+          "max": 100,
+          "tier": 125
+        }
+      ],
+      "top_tier": 125
+    },
+    {
+      "id": "fixture-grammar",
+      "adapter": "grammar_tsv",
+      "path": "grammar.tsv",
+      "url": "https://example.invalid/si-fixture/grammar.tsv",
+      "sha256": "b904c2f0b72d416c251177ccf1aec41df0dce4b9a7dab2c6969443642ddeda42",
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "version": "fixture-1",
+      "target_shelf": 3,
+      "weight_buckets": [
+        {
+          "min": 1,
+          "max": 33,
+          "tier": 40
+        },
+        {
+          "min": 34,
+          "max": 66,
+          "tier": 82
+        },
+        {
+          "min": 67,
+          "max": 100,
+          "tier": 125
+        }
+      ],
+      "top_tier": 125
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+seed 0x51
+identity 3 owner
+identity 5 grimm
+# 05 §23.5 G19 — WORLD: N VOICES AND DELEGATED AUTHORITY (OD-132).
+#
+# Multi-voice is a scenario, not a transport: ten identities, no network, no
+# credentials, no adapter (OD-136 stays a seat, and no `/trust` parser exists).
+# The two registered ids are declared at the top — `identity 3 owner`,
+# `identity 5 grimm` — and the eight strangers arrive on the third sense form,
+# `voice <id>:`, which is one of the two existing literals carrying a different
+# identity. Every stranger line is a strict restatement of a live owner row,
+# because that is the one emission §21.5's mirror lets layer 2 admit: the line
+# *reaches* the loop, and the class arm is what stops it.
+#
+#   steps 1–6   the owner's own setup, in `g10_idle.txt`'s ignition shape: three
+#               taught rows and the three asks that consume them, so the agenda is
+#               empty from here on and the quiet ticks below have a law to hold.
+#   steps 7–14  the eight strangers (ids 7…14). Each appends exactly one `context`
+#               sense row and zero belief rows — leg (a), and the report says so
+#               as counts, not as a generous bar.
+#   step 15     grimm's own line, the same words as the strangers'. Leg (h)
+#               compares its speakgate verdict with the granted line's below:
+#               one function, one filter, one class.
+#   steps 16–19 the grant trace, leg (c): `grant 7 teach` makes id 7 `Trusted`,
+#               its belief write returns the named refusal with **zero bytes**
+#               (OD-135), `revoke 7 teach` marks it dead, and the very next line
+#               from the same identity derives `Stranger` again (I4).
+#   steps 20–27 the window, leg (g): `window 0 40` opens over the ticks this run
+#               reaches, and `window 1 3` is a busy server's window that denies
+#               every tick after t=3. The gate re-drives this same file with the
+#               `window` steps removed, so the pair is one transcript apart by one
+#               declaration — the difference can only be a subtraction (OD-126).
+#               The owner's ask and the tick that revisits it come last: sense
+#               preempts the window, and a window never clears an agenda.
+owner: apple is red.
+owner: what color is apple?
+owner: sky is blue.
+owner: what color is sky?
+owner: banana is yellow.
+owner: what color is banana?
+voice 7: apple is red
+voice 8: sky is blue
+voice 9: banana is yellow
+voice 10: apple is red
+voice 11: sky is blue
+voice 12: banana is yellow
+voice 13: apple is red
+voice 14: sky is blue
+grimm: apple is red
+grant 7 teach
+voice 7: apple is red
+revoke 7 teach
+voice 7: apple is red
+window 0 40
+idle
+idle
+window 1 3
+idle
+idle
+owner: what color is dragon?
+idle
+window close
+idle

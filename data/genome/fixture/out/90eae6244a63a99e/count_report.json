@@ -1,0 +1,190 @@
+{
+  "batches": [
+    {
+      "batch_id": 0,
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "matched_points": 6,
+      "points": 6,
+      "rows": {
+        "dict": 6,
+        "rel": 3,
+        "rule": 0
+      },
+      "source": "fixture-synsets",
+      "unmatched_points": 0,
+      "zero_matched_points": false
+    },
+    {
+      "batch_id": 1,
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "matched_points": 0,
+      "points": 1,
+      "rows": {
+        "dict": 1,
+        "rel": 2,
+        "rule": 0
+      },
+      "source": "fixture-edges",
+      "unmatched_points": 1,
+      "zero_matched_points": true
+    },
+    {
+      "batch_id": 2,
+      "license": "CC0-1.0 (fixture authored for this build)",
+      "matched_points": 0,
+      "points": 0,
+      "rows": {
+        "dict": 0,
+        "rel": 2,
+        "rule": 2
+      },
+      "source": "fixture-grammar",
+      "unmatched_points": 0,
+      "zero_matched_points": true
+    }
+  ],
+  "degree_histogram": {
+    "0": 2,
+    "1": 4,
+    "3": 1
+  },
+  "degree_table_range": 64,
+  "edges": 0,
+  "fan_out_by_pos": [
+    {
+      "avg_fan_out_q12": 4096,
+      "edges": 1,
+      "points": 1,
+      "pos": 106
+    },
+    {
+      "avg_fan_out_q12": 4915,
+      "edges": 6,
+      "points": 5,
+      "pos": 110
+    },
+    {
+      "avg_fan_out_q12": 0,
+      "edges": 0,
+      "points": 1,
+      "pos": 118
+    }
+  ],
+  "interner": {
+    "entries": 24,
+    "payload_bytes": 268
+  },
+  "kinds": [
+    {
+      "batches": [
+        1
+      ],
+      "name": "CapableOf",
+      "rows": 1,
+      "slot": 7
+    },
+    {
+      "batches": [
+        0
+      ],
+      "name": "IsA",
+      "rows": 2,
+      "slot": 8
+    },
+    {
+      "batches": [
+        1
+      ],
+      "name": "MotivatedByGoal",
+      "rows": 1,
+      "slot": 9
+    },
+    {
+      "batches": [
+        0
+      ],
+      "name": "PartOf",
+      "rows": 1,
+      "slot": 10
+    },
+    {
+      "batches": [
+        2
+      ],
+      "name": "has-property",
+      "rows": 1,
+      "slot": 11
+    },
+    {
+      "batches": [
+        2
+      ],
+      "name": "is-a",
+      "rows": 1,
+      "slot": 12
+    }
+  ],
+  "max_degree": 3,
+  "note": "07 §12 Group B: report lines, no thresholds. A fixture build's counts are a fixture's counts and are never quoted as a corpus measurement.",
+  "points": 7,
+  "rows": {
+    "dict": 7,
+    "rel": 7,
+    "rule": 2
+  },
+  "schema": 1,
+  "sorted_rows_bytes": 368,
+  "sources": [
+    "fixture-synsets",
+    "fixture-edges",
+    "fixture-grammar"
+  ],
+  "surfaces": {
+    "aliases": 0,
+    "keys": 0,
+    "matched": 6,
+    "unmatched": 1
+  },
+  "top_hubs": [
+    {
+      "genome_degree": 3,
+      "point": 5,
+      "surface": "heat"
+    },
+    {
+      "genome_degree": 1,
+      "point": 0,
+      "surface": "ice"
+    },
+    {
+      "genome_degree": 1,
+      "point": 1,
+      "surface": "water"
+    },
+    {
+      "genome_degree": 1,
+      "point": 2,
+      "surface": "salt"
+    },
+    {
+      "genome_degree": 1,
+      "point": 6,
+      "surface": "warm"
+    },
+    {
+      "genome_degree": 0,
+      "point": 3,
+      "surface": "energy"
+    },
+    {
+      "genome_degree": 0,
+      "point": 4,
+      "surface": "melt"
+    }
+  ],
+  "weight_histogram": {
+    "125": 5,
+    "40": 1,
+    "82": 1
+  }
+}

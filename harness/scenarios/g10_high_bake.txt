@@ -1,0 +1,64 @@
+seed 0x51
+# 05 §15(e) `G10.e.5`, transcript 1 of the named pair — the one-high-bake-edge
+# session. OD-D (owner ruling 2026-10-23) closed the harness-spec defect by
+# naming real artifacts: the leg runs this file at `V0` and at `V3` on the same
+# birth seed and the pass condition is an identical state hash, never a measured
+# difference.
+#
+# What the pair needs is a *spread* in the stored `bake`. `bake` is written once,
+# at formation (04 §20.4a: `B_max·tanh(k·a_formation)`), and `a` is the one
+# ceiling-valued scalar the loop carries, so a web taught entirely inside one hot
+# burst carries a single value everywhere. The first eight lines are that burst:
+# every edge forms while `a` sits at the top of its range and takes the ceiling
+# bake.
+#
+# The lines after it park an unanswerable question in the agenda — §S.1's
+# precedence spends every quiet tick on the revisit and never ignites (05 §15(c))
+# — so the one clock (04 §10) decays `a` with nothing conducting drive back up.
+# The answer is then taught into that cold `a`, and its edges take a strictly
+# smaller, still nonzero bake: one high-bake edge among the rest. Two distinct
+# stored values on one web is what makes "zero the bake weight" a claim the
+# sampler could have acted on.
+#
+# The three trailing quiet ticks are the draws: the agenda is empty again, so
+# each may ignite and each reads the `bake` field (OPEN-32, closed: that naming).
+# Ignition writes no belief row (I9), which is why both variants leave the same
+# nine classes byte-for-byte.
+owner: apple is red.
+owner: what color is apple?
+owner: cherry is red.
+owner: what color is cherry?
+owner: grass is green.
+owner: what color is grass?
+owner: lemon is yellow.
+owner: what color is lemon?
+owner: what color is platypus?
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+idle
+owner: platypus is pink.
+owner: what color is platypus?
+idle
+idle
+idle

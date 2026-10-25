@@ -1,0 +1,28 @@
+seed 0x51
+# 05 §23 / docs/22 / engineering/12 §6.4 G15 — CRYSTALLIZE.
+#
+# One session. Three fruits are taught the same relation, so each is a live
+# point carrying one live edge of the shared kind. Both questions are opened
+# *before* any answer, so the ordinary ask row ids are already fixed when the
+# detector first speaks; each bare answer then tokenizes to all three fruits,
+# which puts three live points in one frame's round-0 seed pulse (§22.3 rule 1
+# reads `seed_points()`). The walk reaches the shared filler from each member
+# (rule 2), and the second frame is ≥ DELTA_MIN after the first, so the set
+# recurs (rule 3) and the detector opens one kind-5 / origin-2 ask.
+#
+# Ordering is what makes G15(a) a real comparison: the nomination ask is
+# inserted after both ordinary asks and before only belief rows that already
+# cite the ordinary ones, so the filtered digest can be byte-identical.
+#
+# The grimm line is a strict restatement of the first owner row, which is the
+# one emission layer 2 admits (§21.5's mirror). It arrives while the nomination
+# ask is pending, and G15(d) grades it: zero belief-row writes, and only its own
+# `context` sense row appends.
+owner: apple is red.
+owner: banana is red.
+owner: tomato is red.
+owner: what color is dragon?
+owner: what color is unicorn?
+owner: apple banana tomato
+owner: apple banana tomato
+grimm: apple is red

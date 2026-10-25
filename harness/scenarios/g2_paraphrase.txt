@@ -1,0 +1,11 @@
+seed 0x51
+# 05 §7 G2 — PARAPHRASE + WALK INTEGRITY. The scene teaches one belief, reword-
+# recalls it, runs the decoder litmus (`what znark is floop`) and an unlit banana
+# query. Every leg is graded UNMEASURED at this build (the harness opens them):
+# S2 is unreachable because `stage_of` needs a live `links` row and no module
+# writes the `links` shelf before the genome loader, and `G2.c.1` needs a
+# `constants_sweep.json` winner that the open-ceiling refusal cannot supply.
+owner: apple is red.
+owner: what color is apple?
+owner: what znark is floop
+owner: what color is banana?

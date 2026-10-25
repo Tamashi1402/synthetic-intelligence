@@ -1,0 +1,185 @@
+si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect)
+├── anyhow v1.0.104
+├── serde v1.0.229
+│   ├── serde_core v1.0.229
+│   └── serde_derive v1.0.229 (proc-macro)
+│       ├── proc-macro2 v1.0.107
+│       │   └── unicode-ident v1.0.27
+│       ├── quote v1.0.47
+│       │   └── proc-macro2 v1.0.107 (*)
+│       └── syn v3.0.9
+│           ├── proc-macro2 v1.0.107 (*)
+│           ├── quote v1.0.47 (*)
+│           └── unicode-ident v1.0.27
+└── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core)
+    ├── anyhow v1.0.104
+    ├── md-5 v0.10.6
+    │   ├── cfg-if v1.0.5
+    │   └── digest v0.10.7
+    │       ├── block-buffer v0.10.4
+    │       │   └── generic-array v0.14.7
+    │       │       └── typenum v1.20.1
+    │       └── crypto-common v0.1.7
+    │           ├── generic-array v0.14.7 (*)
+    │           └── typenum v1.20.1
+    ├── serde v1.0.229 (*)
+    └── serde_json v1.0.154
+        ├── itoa v1.0.18
+        ├── memchr v2.8.3
+        ├── serde_core v1.0.229
+        └── zmij v1.0.23
+
+si-audit v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-audit)
+├── anyhow v1.0.104
+├── serde v1.0.229 (*)
+└── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+
+si-cli v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-cli)
+├── anyhow v1.0.104
+├── clap v4.6.7
+│   ├── clap_builder v4.6.7
+│   │   ├── anstream v1.0.0
+│   │   │   ├── anstyle v1.0.14
+│   │   │   ├── anstyle-parse v1.0.0
+│   │   │   │   └── utf8parse v0.2.2
+│   │   │   ├── anstyle-query v1.1.5
+│   │   │   │   └── windows-sys v0.61.2
+│   │   │   │       └── windows-link v0.2.1
+│   │   │   ├── anstyle-wincon v3.0.11
+│   │   │   │   ├── anstyle v1.0.14
+│   │   │   │   ├── once_cell_polyfill v1.70.2
+│   │   │   │   └── windows-sys v0.61.2 (*)
+│   │   │   ├── colorchoice v1.0.5
+│   │   │   ├── is_terminal_polyfill v1.70.2
+│   │   │   └── utf8parse v0.2.2
+│   │   ├── anstyle v1.0.14
+│   │   ├── clap_lex v1.1.1
+│   │   └── strsim v0.11.1
+│   └── clap_derive v4.6.7 (proc-macro)
+│       ├── heck v0.5.0
+│       ├── proc-macro2 v1.0.107 (*)
+│       ├── quote v1.0.47 (*)
+│       └── syn v3.0.9 (*)
+├── md-5 v0.10.6 (*)
+├── serde v1.0.229 (*)
+├── serde_json v1.0.154 (*)
+├── si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect) (*)
+├── si-audit v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-audit) (*)
+├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+├── si-front v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-front)
+│   ├── anyhow v1.0.104
+│   ├── serde v1.0.229 (*)
+│   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   ├── si-read v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-read)
+│   │   ├── anyhow v1.0.104
+│   │   ├── serde v1.0.229 (*)
+│   │   ├── si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect) (*)
+│   │   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   ├── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store)
+│   │   │   ├── anyhow v1.0.104
+│   │   │   ├── md-5 v0.10.6 (*)
+│   │   │   ├── serde v1.0.229 (*)
+│   │   │   ├── serde_json v1.0.154 (*)
+│   │   │   └── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   └── si-walk v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-walk)
+│   │       ├── anyhow v1.0.104
+│   │       ├── serde v1.0.229 (*)
+│   │       ├── si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect) (*)
+│   │       ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │       └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+├── si-learn v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-learn)
+│   ├── anyhow v1.0.104
+│   ├── serde v1.0.229 (*)
+│   ├── si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect) (*)
+│   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+├── si-read v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-read) (*)
+├── si-session v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-session)
+│   ├── anyhow v1.0.104
+│   ├── serde v1.0.229 (*)
+│   ├── serde_json v1.0.154 (*)
+│   ├── si-affect v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-affect) (*)
+│   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   ├── si-crystallize v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-crystallize)
+│   │   ├── anyhow v1.0.104
+│   │   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   ├── si-front v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-front) (*)
+│   ├── si-learn v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-learn) (*)
+│   ├── si-read v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-read) (*)
+│   ├── si-silt v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-silt)
+│   │   └── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   ├── si-skills v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-skills)
+│   │   ├── anyhow v1.0.104
+│   │   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   ├── si-sleep v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-sleep)
+│   │   ├── anyhow v1.0.104
+│   │   ├── serde v1.0.229 (*)
+│   │   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   ├── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   │   └── si-walk v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-walk) (*)
+│   ├── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   ├── si-supporter v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-supporter)
+│   │   ├── anyhow v1.0.104
+│   │   ├── serde v1.0.229 (*)
+│   │   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   │   └── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+│   └── si-walk v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-walk) (*)
+├── si-sleep v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-sleep) (*)
+├── si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+├── si-supporter v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-supporter) (*)
+├── si-vulkan v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-vulkan)
+│   ├── anyhow v1.0.104
+│   ├── ash v0.38.0+1.3.281
+│   │   └── libloading v0.8.9
+│   │       └── windows-link v0.2.1
+│   ├── bytemuck v1.25.2
+│   │   └── bytemuck_derive v1.12.1 (proc-macro)
+│   │       ├── proc-macro2 v1.0.107 (*)
+│   │       ├── quote v1.0.47 (*)
+│   │       └── syn v3.0.9 (*)
+│   ├── raw-window-handle v0.6.2
+│   ├── serde_json v1.0.154 (*)
+│   ├── si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+│   └── winit v0.30.13
+│       ├── bitflags v2.13.2
+│       ├── cursor-icon v1.2.0
+│       ├── dpi v0.1.2
+│       ├── raw-window-handle v0.6.2
+│       ├── smol_str v0.2.2
+│       ├── tracing v0.1.44
+│       │   ├── pin-project-lite v0.2.17
+│       │   └── tracing-core v0.1.36
+│       ├── unicode-segmentation v1.13.3
+│       └── windows-sys v0.52.0
+│           └── windows-targets v0.52.6
+│               └── windows_x86_64_msvc v0.52.6
+└── si-walk v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-walk) (*)
+
+si-core v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-core) (*)
+
+si-crystallize v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-crystallize) (*)
+
+si-front v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-front) (*)
+
+si-learn v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-learn) (*)
+
+si-read v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-read) (*)
+
+si-session v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-session) (*)
+
+si-silt v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-silt) (*)
+
+si-skills v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-skills) (*)
+
+si-sleep v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-sleep) (*)
+
+si-store v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-store) (*)
+
+si-supporter v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-supporter) (*)
+
+si-vulkan v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-vulkan) (*)
+
+si-walk v0.1.0 (C:\Users\jakub\Documents\Qoder\2026-10-22\8c015168\crates\si-walk) (*)

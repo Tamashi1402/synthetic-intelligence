@@ -1,0 +1,4 @@
+# 07 sec.2 source S2: asserted edges. `salt` intersects no sense row, so it takes
+# a DICT row in its own batch rather than being dropped or fuzzily matched (sec.5).
+E	n	heat	1	CapableOf	v	melt	1	70
+E	n	salt	-	MotivatedByGoal	n	water	1	12

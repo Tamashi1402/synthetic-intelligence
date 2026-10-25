@@ -1,0 +1,37 @@
+[package]
+name = "si-cli"
+version.workspace = true
+edition.workspace = true
+
+[features]
+default = ["vulkan", "supporter"]
+vulkan = ["dep:si-vulkan", "si-vulkan/vulkan"]
+supporter = ["dep:si-supporter", "si-session/supporter"]
+engine = ["si-store/engine"]
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+si-affect.workspace = true
+si-walk.workspace = true
+si-learn.workspace = true
+si-read.workspace = true
+si-front.workspace = true
+si-supporter = { workspace = true, optional = true }
+si-vulkan = { workspace = true, optional = true }
+si-sleep.workspace = true
+si-audit.workspace = true
+si-session.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+clap.workspace = true
+md-5.workspace = true
+
+[[bin]]
+name = "si-cli"
+path = "src/bin/si-cli.rs"
+
+[[bin]]
+name = "si-harness"
+path = "src/bin/si-harness.rs"

@@ -1,0 +1,9 @@
+[package]
+name = "si-audit"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+anyhow.workspace = true
+serde.workspace = true

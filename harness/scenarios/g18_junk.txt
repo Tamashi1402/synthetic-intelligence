@@ -1,0 +1,28 @@
+seed 0x51
+# 05 §23.4 / engineering/12 §6.4 G18(e) — the spam bound.
+#
+# One session holding the shapes docs/25 §25.4's rules reject, at the gate's floor
+# (`K_FILLER = 2`). Every frame here is one the loop can build; none is a skill:
+#
+#   * statement frames seed two live points and light no filler at all, so their
+#     role set is `seed:` — a shape with no move in it, forwarded forever;
+#   * `plum means fruit` is definitional, so the line that follows it has no
+#     common edge kind across its members;
+#   * the trailing answers **do** build the comparison shape `seed|shared_filler:0`
+#     and they recur, which is the leg's real test: every one of them reaches the
+#     *same* single filler set (`red`), so bar 1 never passes however deep the
+#     recurrence gets. Deep recurrence plus no generality is a concept, not a
+#     skill (docs/25 §25.3) — AD.4 forwards it and AD.2's ordering is why.
+#
+# The expectation is **zero** kind-6 asks, with the forwarded count non-zero so
+# the leg cannot pass by the detector having nothing to say. The counts of the
+# other detector's cluster asks, of the shapes seen and of the ones opened are
+# printed with the verdict.
+owner: apple is red.
+owner: banana is red.
+owner: plum means fruit.
+owner: what color is dragon?
+owner: apple banana
+owner: what color is griffin?
+owner: apple banana
+owner: apple banana plum

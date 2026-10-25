@@ -1,0 +1,37 @@
+seed 0x51
+# 05 §23.2 / docs/23 / engineering/12 §6.4 G16 — SILT.
+#
+# One script, run under both of §23.2's settings:
+#
+#   armed    IGN_WEIGHT_SILT = lo + grid (1), every table row at its box floor.
+#            This is the gate's declared launch point — the term is present and
+#            the wiring is what (d)/(e) grade.
+#   unarmed  IGN_WEIGHT_SILT = 0, the shipped default. This is (a)/(b)'s control:
+#            a literal 0 addend cannot move a byte, so equality is achievable.
+#
+# At the floor point a deposited level is 1 and `mul_q12(1, 1)` is 0, so the two
+# settings are numerically identical — G16(a.2) *asserts* that rather than hoping.
+#
+#   1–3  three fruits taught the same relation. Each frame is a two-member seed
+#        pulse, so no candidate opens, and each deposits its lit live point:
+#        this is where the table first warms (12 §4.1 step 7's tail).
+#   4–6  three quiet ticks. No question is open, so the agenda is empty and each
+#        tick ignites at most one thought (G10's rule); those frames deposit too,
+#        and each tick closes its own `silt.jsonl` line. This is the warming half
+#        of G16(d.2) and the live `primed` producer of §23.4(b).
+#   7–8  one question, then a bare answer that tokenizes to all three fruits.
+#        The answer's round-0 pulse lights three live points in one frame, which
+#        opens crystallize's first candidate — so G16(e)'s cold table is
+#        non-empty and the primed-frame probe has something to flip.
+#
+# Order matters: the idles come before the question because an open ask keeps the
+# agenda non-empty and the idle tick never ignites (G10.c.1), which would leave the
+# live half of this script untested.
+owner: apple is red.
+owner: banana is red.
+owner: tomato is red.
+idle
+idle
+idle
+owner: what color is dragon?
+owner: apple banana tomato

@@ -1,0 +1,36 @@
+seed 0x5151
+# 05 §24 / 13 §6.6 G20 — THE TONGUE's bare control (**OD-189**).
+#
+# This is `g20_tongue.txt` with the spelled repeats (steps 4–9, 12–13, 15–16)
+# removed and everything else held still. The six base statements teach one
+# spelling per licensed word, so every point's bank holds only its canonical
+# surface: the walk has nothing to draw between, consumes no bank draw, and every
+# speaking individual prints the same realized transcript. That is the expected
+# outcome at this fixture, named as such — not a ceiling to work around. The
+# variants fixture is the other half of leg (b).2: no two speaking individuals
+# there may print the same bytes.
+#
+# The seed is the variants file's seed for the same reason: the panel is fixed
+# and the two fixtures are read at the same eight individuals.
+#
+#   steps 1–3   the chain `apple → red → warm → cozy`.
+#   step 4      `red is bright.` — the conflict that opens the ask at red.
+#   steps 5–6   the second citation `sky → blue → cold`.
+#   steps 7–11  the asks.
+#   step 12     the stranger line the class arm stops.
+#   step 13     grimm's own line.
+#   step 14     the ask again, served.
+owner: apple is red.
+owner: red is warm.
+owner: warm is cozy.
+owner: red is bright.
+owner: sky is blue.
+owner: blue is cold.
+owner: what color is apple?
+owner: what is red?
+owner: what is warm?
+owner: what color is sky?
+owner: what is blue?
+voice 9: apple is red
+grimm: red is warm
+owner: what color is apple?

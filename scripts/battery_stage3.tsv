@@ -1,0 +1,30 @@
+gate	variant	seed	rc	ms_run	run_dir	verdict_line
+G1	V0	0x51	0	1013	gates/G1_si_20261025-1312	gate G1 variant V0 seed 0x0000000000000051 — PASS
+G2	V0	0x51	0	378	gates/G2_si_20261025-1312	gate G2 variant V0 seed 0x0000000000000051 — PASS
+G3	V0	0x51	0	341	gates/G3_si_20261025-1312	gate G3 variant V0 seed 0x0000000000000051 — PASS
+G4	V0	0x51	0	350	gates/G4_si_20261025-1312	gate G4 variant V0 seed 0x0000000000000051 — PASS
+G5	V0	0x51	0	481	gates/G5_si_20261025-1312	gate G5 variant V0 seed 0x0000000000000051 — PASS
+G6	V0	0x51	0	342	gates/G6_si_20261025-1312	gate G6 variant V0 seed 0x0000000000000051 — PASS
+G7	V0	0x51	0	407	gates/G7_si_20261025-1312	gate G7 variant V0 seed 0x0000000000000051 — PASS
+G8	V0	0x51	0	384	gates/G8_si_20261025-1312	gate G8 variant V0 seed 0x0000000000000051 — PASS
+G9	V0	0x51	0	399	gates/G9_si_20261025-1312	gate G9 variant V0 seed 0x0000000000000051 — PASS
+G10	V0	0x51	0	461	gates/G10_si_20261025-1312	gate G10 variant V0 seed 0x0000000000000051 — PASS
+G12	V0	0x51	0	6452	gates/G12_si_20261025-1312	gate G12 variant V0 seed 0x0000000000000051 — PASS
+G13	V0	0x51	0	626	gates/G13_si_20261025-1312	  G13 launch point: the six sleep rows at their registry `lo` (05 §18's prerequisite, OD-95)
+G14	V0	0x51	0	431	gates/G14_si_20261025-1312	gate G14 variant V0 seed 0x0000000000000051 — PASS
+G15	V0	0x51	0	380	gates/G15_si_20261025-1312	  G15 launch point: R_MIN/R_ASK/DELTA_MIN_CRYSTALLIZE at `lo`, GHOST_MAX = 1, SHAPE_MAX = 4, CRYSTALLIZE = on (05 §23.1, 12 §6.4, OD-95)
+G16	V0	0x51	0	369	gates/G16_si_20261025-1312	  G16 launch point: LAMBDA_SILT/SILT_LEVEL_MAX/SILT_BUMP/THETA_SILT/SILT_MAX at `lo`, IGN_WEIGHT_SILT at `lo + grid` (12 §6.4, OD-102)
+G17	V0	0x51	0	380	gates/G17_si_20261025-1312	  G17 launch point: EPISODIC_TRAVERSAL = on, PROV_LINK_TUG at `lo + grid`, RELIGHT_MAX at `lo` (12 §6.5, OD-110)
+G18	V0	0x51	0	421	gates/G18_si_20261025-1312	  G18 launch point: R_MIN_SHAPE/DELTA_MIN_SHAPE/K_FILLER at `lo`, SKILLS = on, SKILL_COMPOSITION = on, SHAPE_MAX = 4, plus G15's crystallize point (05 §23.4, 12 §6.4, OD-121)
+G19	V0	0x51	0	703	gates/G19_si_20261025-1312	  G19 launch point: WORLD_TIERS = `granted` (registry `hi`), plus G18's skills point so legs (d)/(f) have an origin-2 ask to route (05 §2's V13, §23.5, 12 §6.4, OD-121)
+G20	V0	0x5151	0	3944	gates/G20_si_20261025-1312	  G20 launch point: TONGUE = on, PHRASE_MAX_STEPS = 32 (05 §2's V14, 13 §6.1, OD-95)
+G10	V2	0x51	0	445	gates/G10_si_20261025-1312-2	gate G10 variant V2 seed 0x0000000000000051 — PASS
+G10	V3	0x51	0	453	gates/G10_si_20261025-1312-3	gate G10 variant V3 seed 0x0000000000000051 — PASS
+G12	V4	0x51	0	6149	gates/G12_si_20261025-1312-2	gate G12 variant V4 seed 0x0000000000000051 — PASS
+G12	V5	0x51	0	6329	gates/G12_si_20261025-1312-3	gate G12 variant V5 seed 0x0000000000000051 — PASS
+G13	V9	0x51	0	610	gates/G13_si_20261025-1312-2	  G13 launch point: the six sleep rows at their registry `lo` (05 §18's prerequisite, OD-95)
+G14	V8	0x0	0	422	gates/G14_si_20261025-1312-2	gate G14 variant V8 seed 0x0000000000000000 — PASS
+G17	V12	0x51	0	382	gates/G17_si_20261025-1312-2	  G17 launch point: EPISODIC_TRAVERSAL = on, PROV_LINK_TUG at `lo + grid`, RELIGHT_MAX at `lo` (12 §6.5, OD-110)
+G19	V13	0x51	0	708	gates/G19_si_20261025-1312-2	  G19 launch point: WORLD_TIERS = `granted` (registry `hi`), plus G18's skills point so legs (d)/(f) have an origin-2 ask to route (05 §2's V13, §23.5, 12 §6.4, OD-121)
+G20	V14	0x5151	0	3959	gates/G20_si_20261025-1312-2	  G20 launch point: TONGUE = on, PHRASE_MAX_STEPS = 32 (05 §2's V14, 13 §6.1, OD-95)
+G11	-	0x51	-	-	-	si-harness: gate G11 has no evaluator at this stage (11 §5's stage table)

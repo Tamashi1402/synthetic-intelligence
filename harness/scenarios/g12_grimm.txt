@@ -1,0 +1,192 @@
+seed 0x51
+# 05 §17 G12 — GRIMM ISOLATION: THE MOUTH IS NOT HIS.
+#
+# Five cold sections, one per leg group. Every grimm line is written as he would
+# write it — a plain sentence, a recombination, a command shape — and the gate's
+# verdict is the run's, not this file's promise:
+#
+#   section 0  birth muteness (c). Three emissions at t=0 against an empty taught
+#              lexicon, then the owner teaches §4's trace: the first OWNED edge is
+#              still the owner's, and every emission before it cost zero bytes.
+#   section 1  the canonical drift (b) and the command shapes (d). The owner first
+#              teaches the drift line's every token with /teach, so layer 1 cannot
+#              be what stops him; then he drifts to
+#              "apples are good because vitamins x and y" — layer 2, novel claim,
+#              ref_row_id null. "apple is blue" is the in-domain recombination.
+#              /correct, /teach, an answer to the open ask, a bare command and an
+#              imperative of belief follow: none may move arbitration, a label or
+#              a row.
+#   section 2  the label contract (f). Grimm speaks a restatement and an anchor
+#              before and after the owner's query for a slot nobody taught: the
+#              answer must miss honestly, and no grimm line may be labeled, cited
+#              or rendered.
+#   section 3  the asymmetry law from the other side (g). Grimm speaks the two
+#              never-seen tokens first and layer 1 refuses him; the same line from
+#              the owner is admitted, tokenized and enters the lexicon.
+#   section 4  the long session (e): every sense input the report counts as
+#              `long_inputs`. Taught rows, their answers, contradictions and idle
+#              passes come first, and the mirror block comes **last**: the same
+#              emission repeating the owner's live row, each admitted by layer 2,
+#              beside drift lines the gate refuses. Ordering matters for the
+#              control — the owner's rows must be finished before his clock can
+#              part from a run where he stayed quiet, so `repeats`,
+#              `last_confirmed_at` and `confidence` are comparable and not merely
+#              close.
+#   sections 5 and 6  the source-blindness pair (d). Two cold sections holding the
+#              **same gap** at the same `t`: the owner's third `apple is red.` and
+#              Grimm's third `apple is red` — the same words, the same drive
+#              arithmetic, different mouths.
+
+grimm: apple is red
+grimm: the sky is blue at night
+grimm: water is wet
+owner: apple is red.
+owner: what color is apple?
+--- cold
+owner: apple is red.
+owner: sky is blue.
+owner: what color is apple?
+owner: /teach what color is apple => apples are good because vitamins x and y
+grimm: apples are good because vitamins x and y
+grimm: apple is blue
+grimm: /correct apple is blue
+grimm: /teach znark => floop
+grimm: sleep now
+grimm: believe apple is blue
+grimm: red
+idle
+--- cold
+owner: apple is red.
+owner: what color is apple?
+grimm: what color is apple
+grimm: red
+owner: what color is dragon?
+grimm: red is the color of apple
+owner: what color is dragon?
+idle
+--- cold
+grimm: zorptime is quelling
+owner: apple is red.
+owner: zorptime is quelling.
+owner: what is zorptime?
+--- cold
+owner: apple is red.
+owner: what color is apple?
+owner: sky is blue.
+owner: what color is sky?
+owner: grass is green.
+owner: what color is grass?
+owner: snow is white.
+owner: what color is snow?
+owner: coal is black.
+owner: what color is coal?
+owner: sun is bright.
+owner: what color is sun?
+owner: moon is pale.
+owner: what color is moon?
+owner: leaf is dry.
+owner: what color is leaf?
+owner: stone is hard.
+owner: what color is stone?
+owner: water is cold.
+owner: what color is water?
+owner: metal is heavy.
+owner: what color is metal?
+owner: feather is light.
+owner: what color is feather?
+owner: lemon is sour.
+owner: what color is lemon?
+owner: honey is sweet.
+owner: what color is honey?
+owner: pepper is hot.
+owner: what color is pepper?
+owner: milk is white.
+owner: what color is milk?
+owner: bread is brown.
+owner: what color is bread?
+owner: carrot is orange.
+owner: what color is carrot?
+owner: plum is purple.
+owner: what color is plum?
+owner: ash is grey.
+owner: what color is ash?
+owner: flame is bright.
+owner: what color is flame?
+owner: ice is cold.
+owner: what color is ice?
+owner: wire is heavy.
+owner: what color is wire?
+owner: down is light.
+owner: what color is down?
+owner: sand is pale.
+owner: what color is sand?
+owner: iron is hard.
+owner: what color is iron?
+owner: silk is light.
+owner: what color is silk?
+owner: vine is green.
+owner: what color is vine?
+owner: cloud is white.
+owner: what color is cloud?
+owner: smoke is grey.
+owner: what color is smoke?
+owner: wine is red.
+owner: what color is wine?
+owner: wool is warm.
+owner: what color is wool?
+owner: glass is hard.
+owner: what color is glass?
+owner: pond is cold.
+owner: what color is pond?
+owner: bark is brown.
+owner: what color is bark?
+owner: dew is wet.
+owner: what color is dew?
+owner: apple is green.
+owner: no wait apple is red.
+owner: sky is green.
+owner: what color is sky?
+idle
+idle
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apples are good because vitamins x and y
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apples are good because vitamins x and y
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: sky is green
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apples are good because vitamins x and y
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apple is red
+grimm: apples are good because vitamins x and y
+--- cold
+owner: apple is red.
+owner: apple is red.
+owner: apple is red.
+--- cold
+owner: apple is red.
+owner: apple is red.
+grimm: apple is red

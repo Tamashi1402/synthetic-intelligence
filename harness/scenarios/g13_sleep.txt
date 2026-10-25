@@ -1,0 +1,60 @@
+seed 0x51
+# 05 §18 G13 — SLEEP. The cadence this gate launches at is the six sleep rows at
+# their registry `lo` (05 §18's prerequisite "fires at least twice" is unsatisfiable
+# at the midpoint placeholder 32769, and `lo` is a point the spec already declares —
+# OD-95). At `lo` the cadence is 2 quiet ticks and the walk budget is 1, so every
+# sleep here is a real night with a real rescale, and the floors are at 1 grid unit,
+# which is the point where P3 can actually be graded instead of being a no-op.
+#
+#   section 0 — four scheduled nights and one checkpoint night over a lived day
+#     1–2   a novel commit forms a baked S-R edge; a served recall pays a gain
+#     3–4   a second taught pair, so the lattice has more than one shelf to dim
+#     5–8   two cues that share one answer: the composite tally P2 reads has
+#           candidates in it, and both settle-sets are context rows P1 can replay
+#     9–12  four quiet ticks: the cadence fires at 2 and at 4 — the "once per
+#           cadence" claim (f.1) needs a window with two nights in it
+#     13    the bare contrary: arbitration asks instead of overwriting
+#     14    a quiet tick with an open ask is not a quiet tick (§19 S.1 ∧ Z.1),
+#           so the run does not grow here and the revisit resolves the queue
+#     15–16 the insistence commits and supersedes: the loser's edge goes to 0 by
+#           supersession, the winner is fresh. A night landing here is §18's
+#           "at least one sleep lands mid-contradiction-leg"
+#     17–20 four more quiet ticks: two more nights, now over a lattice with a
+#           superseded edge and a fresh one in it — (d)'s biconditional and (c)'s
+#           per-group monotonicity are graded on exactly that mix
+#   section 1 — the cold-start night (f.2): a nearly-empty L3
+#     1–2   two quiet ticks over nothing taught: the sleep writes its report lines
+#           and changes 0 bytes, because there is no edge to dim and no context
+#           row to replay
+#   section 2 — a short day, so the last night is the checkpoint's (freeze)
+#     1–3   one taught pair and one question, then two quiet ticks: the cadence
+#           night and the checkpoint night are different nights over different
+#           amounts of new context
+owner: apple is red.
+owner: what color is apple?
+owner: banana is yellow.
+owner: what color is banana?
+owner: sky is blue.
+owner: ocean is blue.
+owner: what color is sky?
+owner: what color is ocean?
+idle
+idle
+idle
+idle
+owner: apple is green.
+idle
+owner: apple is green.
+owner: apple is green.
+idle
+idle
+idle
+idle
+--- cold
+idle
+idle
+--- cold
+owner: cat is grey.
+owner: what color is cat?
+idle
+idle

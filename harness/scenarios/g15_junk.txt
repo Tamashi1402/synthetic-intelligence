@@ -1,0 +1,28 @@
+seed 0x51
+# 05 §23 / engineering/12 §6.4 G15(e) — the spam bound.
+#
+# One session holding every shape docs/22's four rules reject, in the one form a
+# tick can express at the gate's floor (`R_ASK_CRYSTALLIZE = 1` asks on the very
+# first qualifying frame, so a *qualifying* hot afternoon would necessarily ask
+# and cannot be part of this fixture):
+#
+#   * every statement's own frame seeds two live points, so |M| < 3 (rule 1);
+#   * "apple is red." then "apple is blue." is a contradiction: the second is a
+#     G4 arbitration ask, and the slot stays unresolved rather than gaining a
+#     second live value (§22.3's exclusion, on the row shape the loop can make);
+#   * the three fruits are taught through *different* relations — attributive,
+#     attributive, definitional — so the member set has no common edge kind
+#     (rule 2): the three-token answers repeat it and it still cannot open;
+#   * the trailing two-token line is not a reply to any ask, so it is inert.
+#
+# The gate's expectation is zero nomination asks; anything the detector opened
+# and never asked is reported as a count, not a failure.
+owner: apple is red.
+owner: banana is yellow.
+owner: plum means fruit.
+owner: apple is blue.
+owner: what color is dragon?
+owner: what color is unicorn?
+owner: apple banana plum
+owner: apple banana plum
+owner: apple banana

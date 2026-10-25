@@ -1,0 +1,12 @@
+# 07 sec.2 sources S1 and S1-rel as one pinned file. Fixture data authored for
+# this build: its counts are a fixture's counts and are never quoted as a corpus
+# measurement (engineering/07's number rules).
+S	n	heat	1	heat+heats
+S	n	water	1	water
+S	n	ice	1	ice
+S	n	energy	1	energy
+S	j	warm	1	warm+warmest
+S	v	melt	1	melt+melts
+R	n	heat	1	IsA	n	energy	1	-
+R	j	warm	1	IsA	n	heat	1	-
+R	n	water	1	PartOf	n	ice	1	92

@@ -1,0 +1,35 @@
+[package]
+name = "si-session"
+version.workspace = true
+edition.workspace = true
+
+[features]
+default = ["supporter", "tongue"]
+supporter = ["dep:si-supporter"]
+# 13 §1.4: the build-graph switch, on by default — off would delete the crate and
+# make V14's `TONGUE = 1` unreachable. The ruling row is the runtime switch.
+tongue = ["dep:si-tongue"]
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+si-affect.workspace = true
+si-walk.workspace = true
+si-learn.workspace = true
+si-read.workspace = true
+si-front.workspace = true
+si-supporter = { workspace = true, optional = true }
+si-tongue = { workspace = true, optional = true }
+si-sleep.workspace = true
+si-crystallize.workspace = true
+si-silt.workspace = true
+si-skills.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+# The CONFIG ENGINE wake and the merged web are tested against a real sealed
+# artifact, which needs the loader body. Test-only: no library target and no
+# default feature set carries it (00 §6, `check_config_guard`).
+[dev-dependencies]
+si-store = { workspace = true, features = ["engine"] }

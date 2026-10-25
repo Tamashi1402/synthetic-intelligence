@@ -1,0 +1,25 @@
+seed 0x51
+# 05 §12 G7 — RE-PARSE. Six corrections drive the store to S1: each names a
+# distinct entity under one slot, and line 11 re-asks `apple` (already covered by
+# line 1) so line 12's `/correct` supersedes that S-R row — the `sr_superseded`
+# leg of stage_of. That flips the stage, so the two idle ticks (§19 S.2) run the
+# re-parse pass: the first derives a `facts` row for every S-R row that has no
+# child, the second is idempotent. Line 16 then re-asks `pear` (which now has a
+# live S-R row AND a derived fact) and line 17 supersedes both views, each on its
+# own `superseded_by` chain (G7.c.1).
+owner: what color is apple?
+owner: /correct red
+owner: what color is banana?
+owner: /correct yellow
+owner: what color is pear?
+owner: /correct green
+owner: what color is plum?
+owner: /correct purple
+owner: what color is kiwi?
+owner: /correct brown
+owner: what color is apple?
+owner: /correct gold
+idle
+idle
+owner: what color is pear?
+owner: /correct teal

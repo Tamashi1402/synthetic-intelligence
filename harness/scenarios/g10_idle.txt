@@ -1,0 +1,48 @@
+seed 0x51
+# 05 §15 G10 — IDLE THOUGHT. Two cold sections, each the setup a leg reads over:
+#
+#   section 0 (empty agenda → ignition fires)
+#     1  a novel commit forms a baked S-R edge
+#     2  a recall that serves it pays a realized gain and lights the web
+#     3–4 a second taught fact, answered the same way
+#     5–7 three quiet ticks: the agenda is already empty, so each reaches §S.2
+#        step 3 and ignites at most one thought — the monologue is sparse (a.3),
+#        one per tick (a.1), far under the hour bound (a.2). Ignition writes no
+#        belief row (b): the store is byte-identical to the V2 run that never
+#        thinks, and the monologue lines carry {node, round, edge} citations onto
+#        the very points that lit (d).
+#   section 1 (pending agenda → ignition never fires; owner resumes)
+#     1  an unknown named slot opens a question
+#     2  a quiet tick: the revisit cannot resolve it (nothing covers the slot),
+#        so the agenda is not empty and ignition is skipped entirely (c.1)
+#     3  the owner line returns mid-thought; sense resumes without dropping the
+#        open question (c.2) — the agenda survives the idle tick
+#
+# Deleting the ignition (V2) changes none of these rows' bytes; it removes only
+# the thoughts the idle tick chose to think and the monologue they render to.
+owner: apple is red.
+owner: what color is apple?
+owner: yellow is bright.
+owner: what color is yellow?
+owner: banana is yellow.
+owner: what color is banana?
+idle
+idle
+idle
+--- cold
+owner: what color is dragon?
+idle
+owner: what color is dragon?
+--- cold
+# Section 2 is the web `G10.e.2` needs: two served cues that share one answer, so the idle
+# cascade crosses an arc instead of dead-ending on a served answer. The rehearsal
+# reset is then measurable on the crossed edge — its drift halves toward the curve
+# floor — and the same seed still wins the next tick, which is what the
+# refractory question is about.
+owner: sky is blue.
+owner: ocean is blue.
+owner: what color is sky?
+owner: what color is ocean?
+idle
+idle
+idle

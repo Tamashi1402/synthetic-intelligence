@@ -1,0 +1,16 @@
+[package]
+name = "si-store"
+version.workspace = true
+edition.workspace = true
+
+[features]
+default = []
+engine = []
+rayon = []
+
+[dependencies]
+si-core.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+md-5.workspace = true

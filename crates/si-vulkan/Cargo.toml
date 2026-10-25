@@ -1,0 +1,20 @@
+[package]
+name = "si-vulkan"
+version.workspace = true
+edition.workspace = true
+
+[features]
+default = ["vulkan"]
+vulkan = ["dep:ash", "dep:winit", "dep:raw-window-handle"]
+
+[dependencies]
+si-core.workspace = true
+anyhow.workspace = true
+# [00 §9] lists `bytemuck` as used by vulkan (the vertex cast) and the `serde`
+# pair as the JSON format of every lane body. The row's `used by` column does not
+# yet name this crate for `serde_json`; B11 widens it and reports the widening.
+serde_json.workspace = true
+bytemuck.workspace = true
+ash = { workspace = true, optional = true }
+winit = { workspace = true, optional = true }
+raw-window-handle = { workspace = true, optional = true }

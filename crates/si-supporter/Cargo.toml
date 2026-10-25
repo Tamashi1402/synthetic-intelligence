@@ -1,0 +1,14 @@
+[package]
+name = "si-supporter"
+version.workspace = true
+edition.workspace = true
+
+[features]
+default = ["supporter"]
+supporter = []
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+anyhow.workspace = true
+serde.workspace = true

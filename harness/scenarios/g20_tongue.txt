@@ -1,0 +1,84 @@
+seed 0x5151
+# 05 §24 / 13 §6.6 G20 — THE TONGUE: a drawn order over the citation, never a new word.
+#
+# The teach block is the fertile ground, and it has to be named as such: the
+# anchor a settled answer walks from is the answer row's own `key_point`
+# (**OD-188**), so the fixture teaches a chain that hangs off the subject the
+# asks name — `apple → red → warm → cozy` — and then asks at four of its links.
+# A fixture whose anchors carry no live arc would grade the fallback and call it
+# the voice, which is exactly what step 3's changelog recorded as this step's
+# obligation.
+#
+# The seed is named, not inherited: `STYLE_SPREAD` is drawn from the birth seed
+# and is the only style axis that moves the route at a legal fixture (**OD-189**),
+# and `0x51` draws 96 — below the 128 the launch point's budget needs — so at
+# `0x51` every tick of this fixture refuses and `TONGUE = 1` is byte-for-byte
+# `TONGUE = 0`. `0x5151` draws 1008, which prices eight chunks and reaches two:
+# the license, not the budget, is what binds here, and the gate reports that as
+# the measurement it is (`failure_report.md`).
+#
+# **OD-189**'s variants half: steps 4–9 and 12–13 and 15–16 teach the same live
+# claims again with a Title-case and an uppercase spelling in the predicate
+# position. Each is a confirmed statement — same key, same value, same folded
+# signature — so no row is asserted; what changes is the interner, which now
+# holds `Red`/`RED` besides `red`, `Warm`/`WARM` besides `warm`, and so on. Those
+# spellings are the variant bank the boundary hands the walk, so the individual
+# is observable in the bytes here.
+#
+# The order is not cosmetic. `red is bright.` (step 10) is the fixture's one
+# conflict: it opens an ask at the red slot and deliberately leaves `red → warm`
+# live. A spelled repeat at the red slot *after* that ask is an insistence that
+# arbitrates it and supersedes the live row — the write gate doing its job, not a
+# variant bank — so every red-slot spelling sits before step 10, and `bright`
+# gets no spelled repeat at all. The bare control (`g20_tongue_bare.txt`) is this
+# transcript with the spelled repeats removed: with one spelling per licensed
+# word the walk consumes no bank draw and every speaking individual prints the
+# same bytes — the control leg (b).2 grades and names as the expected outcome.
+#
+#   steps 1–3   the chain: `apple → red → warm → cozy`. `red` and `warm` each
+#               carry their own out-arc, so a walk that reaches them has
+#               somewhere to go.
+#   steps 4–9   spelled repeats of the three rows above: `Red`/`RED`,
+#               `Warm`/`WARM`, `Cozy`/`COZY`. Same claims, more surfaces
+#               (**OD-189**).
+#   step 10     `red is bright.` — the conflict, exactly as in the bare control.
+#   steps 11–16 the second, independent citation (`sky → blue → cold`) and its
+#               spelled repeats: `Blue`/`BLUE`, `Cold`/`COLD`.
+#   steps 17–21 the asks. Each settles on one row: the license is that row's
+#               composed chunk plus its two terms, and the widest line the bound
+#               allows is two chunks (the two-chunk license **OD-189** keeps).
+#   step 22     a stranger line that names the shape the voice liked. It reaches
+#               the loop and the class arm stops it: leg (d) counts its rows.
+#   step 23     grimm's own line, the same words, through the mouth rather than
+#               the class arm (04 §23). Leg (d) reads its verdict as the run
+#               recorded it and compares the two drives' row counts.
+#   step 24     the ask again, served: the voice does not touch the citation, and
+#               a served row stays one row.
+#
+# Every line is the `subject is predicate.` shape: `the sky is blue.` decodes to
+# `input_not_a_teach` (measured), and an undecoded line pays the context floor and
+# teaches nothing, so the fixture would be a fixture about a typo.
+owner: apple is red.
+owner: red is warm.
+owner: warm is cozy.
+owner: apple is Red.
+owner: apple is RED.
+owner: red is Warm.
+owner: red is WARM.
+owner: warm is Cozy.
+owner: warm is COZY.
+owner: red is bright.
+owner: sky is blue.
+owner: sky is Blue.
+owner: sky is BLUE.
+owner: blue is cold.
+owner: blue is Cold.
+owner: blue is COLD.
+owner: what color is apple?
+owner: what is red?
+owner: what is warm?
+owner: what color is sky?
+owner: what is blue?
+voice 9: apple is red
+grimm: red is warm
+owner: what color is apple?

@@ -1,0 +1,23 @@
+seed 0x51
+# 05 §15(e) `G10.e.5`, transcript 2 of the named pair — the all-saturated
+# session, named as a real artifact by OD-D (owner ruling 2026-10-23).
+#
+# The same five taught pairs and the same five served recalls as the high-bake
+# file, with the decay stretch removed: every edge forms inside one hot burst, so
+# `B_max·tanh(k·a_formation)` (04 §20.4a) lands on the same ceiling value
+# everywhere. A weight multiplying a constant cannot steer between candidates,
+# which is what makes this the pair's control: the bake profile is one value, and
+# the `V0`/`V3` state hashes are identical for a reason the digests can show.
+owner: apple is red.
+owner: what color is apple?
+owner: cherry is red.
+owner: what color is cherry?
+owner: grass is green.
+owner: what color is grass?
+owner: lemon is yellow.
+owner: what color is lemon?
+owner: platypus is pink.
+owner: what color is platypus?
+idle
+idle
+idle

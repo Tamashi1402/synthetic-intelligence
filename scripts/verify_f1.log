@@ -1,0 +1,66 @@
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_skills
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_sleep
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_store
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_supporter
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_vulkan
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests si_walk
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+=== CLIPPY ===
+    |
+117 |               let genome = match &genome {
+    |  __________________________^
+118 | |                 Some(relative) => Some(ws.path(relative)),
+119 | |                 None => None,
+120 | |             };
+    | |_____________^ help: try: `genome.as_ref().map(|relative| ws.path(relative))`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#manual_map
+    = note: `#[warn(clippy::manual_map)]` on by default
+
+warning: `si-cli` (bin "si-harness") generated 1 warning (run `cargo clippy --fix --bin "si-harness" -p si-cli -- ` to apply 1 suggestion)
+warning: `si-cli` (bin "si-harness" test) generated 1 warning (1 duplicate)
+warning: this creates an owned instance just for comparison
+   --> crates\si-cli\src\bin\si-cli.rs:590:69
+    |
+590 |         std::env::var_os("SI_PROFILE").is_some_and(|value| value != std::ffi::OsString::from("0"));
+    |                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ help: try: `"0"`
+    |
+    = help: for further information visit https://rust-lang.github.io/rust-clippy/rust-1.99.0/index.html#cmp_owned
+    = note: `#[warn(clippy::cmp_owned)]` on by default
+
+warning: `si-cli` (bin "si-cli") generated 1 warning (run `cargo clippy --fix --bin "si-cli" -p si-cli -- ` to apply 1 suggestion)
+warning: `si-cli` (bin "si-cli" test) generated 1 warning (1 duplicate)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.21s

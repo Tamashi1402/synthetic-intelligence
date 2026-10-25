@@ -1,0 +1,24 @@
+seed 0x51
+# 05 §14 G9 — AROUSAL + OBSERVED EMOTIONS. This is the setup the label stream is
+# read over: it must log real rows of the six signal kinds so every label classify()
+# earns cites a sequence that exists (G9(b)). The lines below are chosen for the
+# shape they leave in the written log, not for an affect this build is not allowed
+# to fabricate:
+#   line 1  a novel commit → a kind-0 novelty spike, and `a` steps up off its floor
+#   line 2  a recall that serves a cited row → a kind-1 realized-gain row
+#   line 3  an unknown named slot → an open question (the ask the walk emitted)
+#   line 4  an answer to that open question → a novelty commit that closes it
+#   line 5  a bare contrary → a kind-2 conflict plus the arbitration that asks
+#   line 6  the insistence that commits, superseding the slot
+#   line 7  a second recall → another realized-gain row
+#   line 8  a quiet tick → the queue revisit resolves whatever the answers closed
+# Deleting si-audit changes none of these rows' bytes; only the label strings it
+# would read out (04 §22, G9(c)).
+owner: apple is red.
+owner: what color is apple?
+owner: what color is pear?
+owner: pear is green.
+owner: apple is green.
+owner: apple is green.
+owner: what color is apple?
+idle

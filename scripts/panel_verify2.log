@@ -1,0 +1,10 @@
+battery exit 0
+G13	V9	0x51	1	1226	gates/G13_si_20261025-0109-2
+G17	V12	0x51	1	1172	gates/G17_si_20261025-0109-2
+G19	V13	0x51	1	2017	gates/G19_si_20261025-0109-2
+  check_teach_literals               pass
+  check_temperament_closed           pass
+  check_windows_suppress_only        pass
+  placeholders: 41
+  disabled: 0
+  report: gates/checks/stage-B13.json

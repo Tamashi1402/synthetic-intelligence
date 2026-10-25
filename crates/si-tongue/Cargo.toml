@@ -1,0 +1,8 @@
+[package]
+name = "si-tongue"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+si-walk.workspace = true

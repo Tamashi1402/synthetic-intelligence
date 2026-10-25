@@ -1,0 +1,44 @@
+seed 0x51
+# 05 §23.4 / docs/25 / engineering/12 §5 §32 — SKILLS, the comparison fixture.
+#
+# Two *different* content clusters taught through the *same* relation, each
+# answered once. The walk gives both frames the same role set (`seed`,
+# `shared_filler`) and the same traversed kind (`0` =
+# `EDGE_KIND_OWNED_ATTRIBUTE`), so both fold to one shape — but their filler
+# points differ, so the shape is instantiated over two distinct filler sets.
+# That is docs/25 §25.3's claim in the smallest form the loop can express: same
+# shape, different fillers = a move; different shape, same fillers = no move.
+#
+# The bars at the gate's floor (`K_FILLER = 2`, `R_MIN_SHAPE = 1`,
+# `DELTA_MIN_SHAPE = 1`):
+#
+#   t=7  the first answer's frame has one filler set, so bar 1 fails and the
+#        frame is **forwarded** — AD.4's exclusion, and G18(f.1)'s evidence.
+#   t=9  the second answer's frame supplies the second filler set, so bar 1
+#        passes for the first time (`open`), `R_MIN_SHAPE` is already met, and
+#        the detector nominates exactly once: one kind-6 / origin-2 ask.
+#
+# What this fixture deliberately does NOT contain: any reply to that ask. The
+# mint interns the template and names a row, so it would land inside
+# `questions_filtered_digest`'s shelf and grow the hashed interner — and G18(a)
+# grades both. The mint is G18(b.2)'s and G18(d)'s to walk, on `g18_owner.txt`.
+#
+# `CRYSTALLIZE` rides along at G15's own point because G18(f.2) is one test, not
+# two claims (OD-121): the frames this detector forwards must still be visible to
+# §29's fold **in this same run**.
+#
+# The `grimm:` line is the (d) arm, and it is here rather than only in
+# `g18_owner.txt` for the same reason G15 puts its supporter line in the fruit
+# fixture: a `grimm:` line mints nothing in either arm, so it costs the comparison
+# no byte, and §23.4's heading names this file as the one the family runs.
+owner: apple is red.
+owner: banana is red.
+owner: tomato is red.
+owner: sky is blue.
+owner: berry is blue.
+owner: ocean is blue.
+owner: what color is dragon?
+owner: apple banana tomato
+owner: what color is griffin?
+owner: sky berry ocean
+grimm: sky is blue

@@ -1,0 +1,10 @@
+{
+  "artifact": "data/genome/fixture\\out\\90eae6244a63a99e\\SIgen",
+  "seal_md5": "9ea9634a24e6ea90edae0c2daca10b9f",
+  "sources": [
+    "fixture-synsets",
+    "fixture-edges",
+    "fixture-grammar"
+  ],
+  "version_tag": 10442411729553172894
+}

@@ -1,0 +1,9 @@
+[package]
+name = "si-skills"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+anyhow.workspace = true

@@ -1,0 +1,4 @@
+# 07 §10: one line per sealed batch, with its row counts.
+fixture-synsets	batch 0	https://example.invalid/si-fixture/senses.tsv	version fixture-1	license CC0-1.0 (fixture authored for this build)	sha256 d610d6cb243405143f496d4197e249c48446bbf9593954646a47561096981c30	rows dict=6 rel=3 rule=0
+fixture-edges	batch 1	https://example.invalid/si-fixture/edges.tsv	version fixture-1	license CC0-1.0 (fixture authored for this build)	sha256 e1d8ef6aca77b117c43ae54b3e4516944618d2832ee2b8dc9756757071e91d24	rows dict=1 rel=2 rule=0
+fixture-grammar	batch 2	https://example.invalid/si-fixture/grammar.tsv	version fixture-1	license CC0-1.0 (fixture authored for this build)	sha256 b904c2f0b72d416c251177ccf1aec41df0dce4b9a7dab2c6969443642ddeda42	rows dict=0 rel=2 rule=2

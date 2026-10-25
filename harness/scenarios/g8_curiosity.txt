@@ -1,0 +1,22 @@
+seed 0x51
+# 05 §13 G8 — CURIOSITY LOOP. Section 0 runs legs (a)(b)(c)(e): an unknown gap
+# asks, a bare reply auto-commits as answer-to-ask, the later recall cites that
+# ask-event, and an idle tick closes a second open loop on its own after a
+# statement happens to cover its slot.
+# The `--- cold` blocks are the separate runs 05 §13 names: the control `red.`
+# with no pending ask (b.2), the dedupe re-ask (d.2), and the teach that closes
+# a loop it was not aimed at (f).
+owner: what color is apple?
+owner: red.
+owner: what color is apple?
+owner: what color is pear?
+owner: pear is green.
+idle
+--- cold
+owner: red.
+--- cold
+owner: what color is apple?
+owner: what color is apple?
+--- cold
+owner: what color is apple?
+owner: /teach what color is apple => red

@@ -1,0 +1,7 @@
+[package]
+name = "si-silt"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true

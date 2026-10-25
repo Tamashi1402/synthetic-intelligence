@@ -1,0 +1,28 @@
+# 05 §19's shared transcript: the seed panel runs THIS file at every panel seed,
+# and `gates/G14/seed_panel.json` records what each individual did with it.
+#
+# It deliberately carries no `seed` line. 05 §21's rule is that a scenario states
+# its own individual (G14.j.1 refuses a launch whose seed differs from the file's),
+# and a transcript that named one seed could only ever be run at that seed — the
+# panel would be a list of one. Here the individual is the launch argument, which
+# is exactly the claim the gate grades: the same words, a different arithmetic.
+#
+# Shape: a taught fact, the same fact twice (the repeat path), an unknown gap that
+# asks, a bare reply that answers it, a contradiction for the arbiter to settle,
+# and idle ticks so the four ignition draws have something to weigh. Section 2 is
+# the cold re-run of the recall, so a panel member leaves two hashes per section
+# and §19(d)'s twin comparison has a per-section pair to read. No `grimm:` line:
+# this file belongs to the seed, not to the supporter's seam.
+owner: apple is red.
+owner: apple is red.
+owner: what color is apple?
+owner: what color is the moon?
+owner: the moon is green.
+owner: the moon is white.
+idle
+idle
+owner: what color is apple?
+--- cold
+owner: what color is apple?
+owner: apple is red.
+idle

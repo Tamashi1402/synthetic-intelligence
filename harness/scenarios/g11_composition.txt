@@ -1,0 +1,10 @@
+seed 0x51
+# 05 §16 G11(e)–(i) — the composition scene. Two separate facts, two turns,
+# nothing else. No line here states `apple is warm`; (e).2 asserts that on this
+# fixture's own hash. The composite ask is the §16(f) line, and the blue ask is
+# (g)'s broken chain. (i)'s depth chain belongs to the swept cap and is not in
+# this fixture.
+owner: apple is red.
+owner: red is warm.
+owner: is an apple warm?
+owner: what color is blue?

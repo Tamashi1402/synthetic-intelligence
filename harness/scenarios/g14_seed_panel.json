@@ -1,0 +1,29 @@
+{
+  "artifact": "harness/scenarios/g14_seed_panel.json",
+  "law": "engineering/05 §4.1 (the seed-panel protocol) and §19's prerequisites: a `seed_panel` of >= 16 fixed u64s checked into harness/scenarios/ and hashed. engineering/03 §7 rows it as `>= 16, fixed per run, recorded in gate_report.json`, gate G14(h).",
+  "rule": "The panel is produced by one rule, never by a hand, so no member is a cherry-picked individual. Member 1 and member 2 are the two seeds the spec itself names: 0x51 is 05 §2's V0 reference seed and the seed every shipped scenario states; 0x0 is 05 §2's V8 control twin. Members 3..18 are the sixteen values u64::from_le_bytes(md5(\"SI-panel-<k>\")[0..8]) for k = 0..15, in k order. `si-harness` re-derives this list from the rule and refuses a file whose members differ from it (G14.e.2's `no rejection sampling` law applies to the panel too: a panel chosen until a leg goes green is 05 §4.1 step 4's failure wearing a statistics costume).",
+  "rule_reimplementation": "si_cli::harness::panel::rule_seeds — the code, not this file, is the authority; a reviewer can recompute either from the string above.",
+  "seed_format": 1,
+  "size": 18,
+  "scenario": "harness/scenarios/g14_twins.txt",
+  "seeds": [
+    "0x0000000000000051",
+    "0x0000000000000000",
+    "0xed2af087ffa6a397",
+    "0xf4fb1dcee3f20329",
+    "0xc9b7757684b0b112",
+    "0x895cdebef60107e2",
+    "0x9f84ec78f8793dc2",
+    "0xe2bba9c6452509f9",
+    "0xdf1ab2e8051e115c",
+    "0x8becbd9875424f98",
+    "0x82c88ed98ebdca62",
+    "0x5b42a6e31e3d23f7",
+    "0x9b839071e6e43fbd",
+    "0x7ed01fc94cb41f7f",
+    "0xafe3063e1bedaf75",
+    "0x327ae30e1d587cd1",
+    "0xbe9e9759e1aa42ab",
+    "0x199a10e7a0ddedee"
+  ]
+}

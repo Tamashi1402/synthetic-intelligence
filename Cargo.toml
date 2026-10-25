@@ -1,0 +1,54 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/si-core",
+    "crates/si-store",
+    "crates/si-affect",
+    "crates/si-walk",
+    "crates/si-learn",
+    "crates/si-read",
+    "crates/si-front",
+    "crates/si-supporter",
+    "crates/si-vulkan",
+    "crates/si-sleep",
+    "crates/si-crystallize",
+    "crates/si-silt",
+    "crates/si-skills",
+    "crates/si-audit",
+    "crates/si-session",
+    "crates/si-tongue",
+    "crates/si-cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
+[workspace.dependencies]
+anyhow = "1.0.104"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.154"
+bytemuck = { version = "1.25.2", features = ["derive"] }
+clap = { version = "4.6.7", features = ["derive"] }
+md-5 = "0.10.6"
+ash = "0.38.0"
+winit = "0.30.13"
+raw-window-handle = "0.6.2"
+
+si-core = { path = "crates/si-core" }
+si-store = { path = "crates/si-store" }
+si-affect = { path = "crates/si-affect" }
+si-walk = { path = "crates/si-walk" }
+si-learn = { path = "crates/si-learn" }
+si-read = { path = "crates/si-read" }
+si-front = { path = "crates/si-front" }
+si-supporter = { path = "crates/si-supporter" }
+si-vulkan = { path = "crates/si-vulkan" }
+si-sleep = { path = "crates/si-sleep" }
+si-crystallize = { path = "crates/si-crystallize" }
+si-silt = { path = "crates/si-silt" }
+si-skills = { path = "crates/si-skills" }
+si-audit = { path = "crates/si-audit" }
+si-session = { path = "crates/si-session" }
+si-tongue = { path = "crates/si-tongue" }
+si-cli = { path = "crates/si-cli" }

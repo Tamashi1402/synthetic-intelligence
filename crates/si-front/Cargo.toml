@@ -1,0 +1,14 @@
+[package]
+name = "si-front"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+si-read.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+
+[dev-dependencies]
+md-5.workspace = true

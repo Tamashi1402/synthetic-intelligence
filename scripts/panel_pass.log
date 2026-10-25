@@ -1,0 +1,350 @@
+=== round 1 ===
+1 0x0000000000000051 PASS unresolved: 8
+gate G14 variant V0 seed 0x0000000000000051 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.d.2      unmeasured   §19(d) is a pair leg and the index has one individual that has run the twins transcript; the panel pass records the rest
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  G14.f.1      unmeasured   the leg compares individuals, and `gates/G14/seed_panel.json` holds 0 record(s) made by this binary; the panel pass (05 §19's prerequisite) needs each member run
+  legs: 26  unresolved: 8
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100
+1 0x0000000000000000 PASS unresolved: 8
+gate G14 variant V0 seed 0x0000000000000000 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.d.2      unmeasured   §19(d) is a pair leg and the index has one individual that has run the twins transcript; the panel pass records the rest
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  G14.f.1      unmeasured   the leg compares individuals, and `gates/G14/seed_panel.json` holds 1 record(s) made by this binary; the panel pass (05 §19's prerequisite) needs each member run
+  legs: 26  unresolved: 8
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-2
+1 0xed2af087ffa6a397 PASS unresolved: 6
+gate G14 variant V0 seed 0xed2af087ffa6a397 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-3
+1 0xf4fb1dcee3f20329 PASS unresolved: 6
+gate G14 variant V0 seed 0xf4fb1dcee3f20329 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-4
+1 0xc9b7757684b0b112 PASS unresolved: 6
+gate G14 variant V0 seed 0xc9b7757684b0b112 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-5
+1 0x895cdebef60107e2 PASS unresolved: 6
+gate G14 variant V0 seed 0x895cdebef60107e2 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-6
+1 0x9f84ec78f8793dc2 PASS unresolved: 6
+gate G14 variant V0 seed 0x9f84ec78f8793dc2 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-7
+1 0xe2bba9c6452509f9 PASS unresolved: 6
+gate G14 variant V0 seed 0xe2bba9c6452509f9 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-8
+1 0xdf1ab2e8051e115c PASS unresolved: 6
+gate G14 variant V0 seed 0xdf1ab2e8051e115c — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-9
+1 0x8becbd9875424f98 PASS unresolved: 6
+gate G14 variant V0 seed 0x8becbd9875424f98 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-10
+1 0x82c88ed98ebdca62 PASS unresolved: 6
+gate G14 variant V0 seed 0x82c88ed98ebdca62 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-11
+1 0x5b42a6e31e3d23f7 PASS unresolved: 6
+gate G14 variant V0 seed 0x5b42a6e31e3d23f7 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-12
+1 0x9b839071e6e43fbd PASS unresolved: 6
+gate G14 variant V0 seed 0x9b839071e6e43fbd — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-13
+1 0x7ed01fc94cb41f7f PASS unresolved: 6
+gate G14 variant V0 seed 0x7ed01fc94cb41f7f — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-14
+1 0xafe3063e1bedaf75 PASS unresolved: 6
+gate G14 variant V0 seed 0xafe3063e1bedaf75 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-15
+1 0x327ae30e1d587cd1 PASS unresolved: 6
+gate G14 variant V0 seed 0x327ae30e1d587cd1 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-16
+1 0xbe9e9759e1aa42ab PASS unresolved: 6
+gate G14 variant V0 seed 0xbe9e9759e1aa42ab — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-17
+1 0x199a10e7a0ddedee PASS unresolved: 6
+gate G14 variant V0 seed 0x199a10e7a0ddedee — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.i.1      unmeasured   the leg compares every member of the panel, so it is graded when the index holds all of them; the panel pass is what records them
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 6
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-18
+=== round 2 ===
+2 0x0000000000000051 PASS unresolved: 5
+gate G14 variant V0 seed 0x0000000000000051 — PASS
+  G14.b.1      unmeasured   the in-process half holds for every panel seed; the across-process half needs the same individual recorded by two separate run directories, and the index has no such pair yet
+  G14.d.1      unmeasured   the in-process and resume halves hold; §19(d) asks for the same transcript run at the same seed in two separate processes, and the index has no such pair yet — the panel pass is what produces it
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 5
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-19
+2 0x0000000000000000 PASS unresolved: 3
+gate G14 variant V0 seed 0x0000000000000000 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-20
+2 0xed2af087ffa6a397 PASS unresolved: 3
+gate G14 variant V0 seed 0xed2af087ffa6a397 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-21
+2 0xf4fb1dcee3f20329 PASS unresolved: 3
+gate G14 variant V0 seed 0xf4fb1dcee3f20329 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-22
+2 0xc9b7757684b0b112 PASS unresolved: 3
+gate G14 variant V0 seed 0xc9b7757684b0b112 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-23
+2 0x895cdebef60107e2 PASS unresolved: 3
+gate G14 variant V0 seed 0x895cdebef60107e2 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-24
+2 0x9f84ec78f8793dc2 PASS unresolved: 3
+gate G14 variant V0 seed 0x9f84ec78f8793dc2 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-25
+2 0xe2bba9c6452509f9 PASS unresolved: 3
+gate G14 variant V0 seed 0xe2bba9c6452509f9 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-26
+2 0xdf1ab2e8051e115c PASS unresolved: 3
+gate G14 variant V0 seed 0xdf1ab2e8051e115c — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-27
+2 0x8becbd9875424f98 PASS unresolved: 3
+gate G14 variant V0 seed 0x8becbd9875424f98 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-28
+2 0x82c88ed98ebdca62 PASS unresolved: 3
+gate G14 variant V0 seed 0x82c88ed98ebdca62 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-29
+2 0x5b42a6e31e3d23f7 PASS unresolved: 3
+gate G14 variant V0 seed 0x5b42a6e31e3d23f7 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-30
+2 0x9b839071e6e43fbd PASS unresolved: 3
+gate G14 variant V0 seed 0x9b839071e6e43fbd — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-31
+2 0x7ed01fc94cb41f7f PASS unresolved: 3
+gate G14 variant V0 seed 0x7ed01fc94cb41f7f — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-32
+2 0xafe3063e1bedaf75 PASS unresolved: 3
+gate G14 variant V0 seed 0xafe3063e1bedaf75 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-33
+2 0x327ae30e1d587cd1 PASS unresolved: 3
+gate G14 variant V0 seed 0x327ae30e1d587cd1 — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-34
+2 0xbe9e9759e1aa42ab PASS unresolved: 3
+gate G14 variant V0 seed 0xbe9e9759e1aa42ab — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-35
+2 0x199a10e7a0ddedee PASS unresolved: 3
+gate G14 variant V0 seed 0x199a10e7a0ddedee — PASS
+  G14.e.3      unmeasured   enumerating the draw's whole alphabet (a Q12 fraction has 4096 values, not 65536) shows rows whose declared ceiling no seed can ever draw; widening the panel cannot reach a value the arithmetic excludes, so this half is the ledger's, not the harness's — see the OD raised at B12
+  G14.h.1      unmeasured   the panel pass re-runs a sweep's **winner and both box corners** at every member (05 §4.1 step 2), and each of these runners is a written refusal because its box has an open ceiling: {artifact:refused} — OD-83 is the ruling that closes them. The panel itself now exists, so the box validation is one ruling from being runnable rather than one from being impossible
+  G14.k.1      unmeasured   `MOD_CURVE_VARIANTS` is a sealed family only once G9's arousal sweep publishes it, and that artifact is a written refusal (**OD-74**, **OD-83**). A seed that constructs a curve is §18.1's `never hand-argued` law broken by an individual, so the leg waits for the publication rather than grading the draw alone
+  legs: 26  unresolved: 3
+  sweeps cited: 0
+  run dir: gates/G14_si_20261025-0100-36

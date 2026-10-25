@@ -1,0 +1,11 @@
+[package]
+name = "si-sleep"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+si-core.workspace = true
+si-store.workspace = true
+si-walk.workspace = true
+anyhow.workspace = true
+serde.workspace = true

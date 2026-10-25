@@ -1,0 +1,9 @@
+seed 0x51
+# 05 §9 G4 — CONTRADICTION. Lines 1–2 are the "bare contrary" scene: line 2
+# disagrees with no marker, so arbitration asks instead of overwriting. Line 3 is
+# the insistence that commits. Lines 2–4 alternate the slot so every conflict is
+# recorded as a triple with a named branch (G4.a.2).
+owner: apple is red.
+owner: apple is green.
+owner: apple is green.
+owner: apple is blue.
