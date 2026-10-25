@@ -1,7 +1,6 @@
 # SI — Workspace Layout
 
 ```
-8c015168/
 ├── README.md                 ← this map
 ├── DESIGN.md                 ← thin master index: § number → docs file
 ├── docs/                     ← the design, spread out, one section per file
